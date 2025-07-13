@@ -1,24 +1,5 @@
 import csv
 
-# Define the path to the input CSV file
-input_csv_path = "1_quatre_pitch_classes.csv"
-input_csv_path = "2_double_pitch_classes.csv"
-input_csv_path = "3_triple_pitch_classes.csv"
-input_csv_path = "4_interlude_pitch_classes.csv"
-input_csv_path = "5_saraband_pitch_classes.csv"
-input_csv_path = "6_gailliard_pitch_classes.csv"
-input_csv_path = "7_duos_pitch_classes.csv"
-
-
-# Define the path to the output CSV file
-output_csv_path = '1_quatre_summary.csv'
-output_csv_path = '2_double_summary.csv'
-output_csv_path = '3_triple_summary.csv'
-output_csv_path = '4_interlude_summary.csv'
-output_csv_path = '5_saraband_summary.csv'
-output_csv_path = '6_gailliard_summary.csv'
-output_csv_path = '7_duos_summary.csv'
-
 # Function to parse the CSV and generate the desired output
 def parse_and_summarize_pitch_classes(input_csv_path, output_csv_path):
     with open(input_csv_path, mode='r', newline='', encoding='utf-8') as csv_file:
@@ -47,6 +28,24 @@ def parse_and_summarize_pitch_classes(input_csv_path, output_csv_path):
 
     return output_csv_path
 
+# Define the path to the input CSV file
+input_csv_path = "1_quatre_pitch_classes.csv"
+input_csv_path = "2_double_pitch_classes.csv"
+input_csv_path = "3_triple_pitch_classes.csv"
+input_csv_path = "4_interlude_pitch_classes.csv"
+input_csv_path = "5_saraband_pitch_classes.csv"
+input_csv_path = "6_gailliard_pitch_classes.csv"
+input_csv_path = "7_duos_pitch_classes.csv"
+
+
+# Define the path to the output CSV file
+output_csv_path = '1_quatre_summary.csv'
+output_csv_path = '2_double_summary.csv'
+output_csv_path = '3_triple_summary.csv'
+output_csv_path = '4_interlude_summary.csv'
+output_csv_path = '5_saraband_summary.csv'
+output_csv_path = '6_gailliard_summary.csv'
+output_csv_path = '7_duos_summary.csv'
 
 # Call the function and print the path to the output CSV file
 output_csv_path = parse_and_summarize_pitch_classes(
