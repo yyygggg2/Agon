@@ -19,11 +19,11 @@ This project provides a framework for analyzing pitch-class usage in Stravinsky�
 ---
 
 ### 📂 Project Structure
-├── 1_pas_de_quatre_reduction.musicxml     # MusicXML file (others also follow same naming)
-├── 8_parse_pitch_class.py                 # Extract pitch class data from MusicXML to CSV
-├── 9_parse_pitch_class_summary.py         # Summarize pitch class data (per measure, cumulative)
-├── *_pitch_classes.csv                    # Output: Raw pitch class counts by measure
-├── *_summary.csv                          # Output: Used pitch classes and cumulative stats
+├── 1_pas_de_quatre_reduction.musicxml     # MusicXML file (others also follow same naming)\
+├── 8_parse_pitch_class.py                 # Extract pitch class data from MusicXML to CSV\
+├── 9_parse_pitch_class_summary.py         # Summarize pitch class data (per measure, cumulative)\
+├── *_pitch_classes.csv                    # Output: Raw pitch class counts by measure\
+├── *_summary.csv                          # Output: Used pitch classes and cumulative stats\
 
 ---
 
