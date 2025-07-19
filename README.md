@@ -3,7 +3,7 @@
 
 ---
 
-### 📌 English Description
+### 📌 Description
 This repository contains quantitative analysis resources for selected sections of Igor Stravinsky’s late ballet *Agon*. It includes Python scripts for pitch class extraction, processed data in CSV format, and accompanying statistical visualizations. The project aims to facilitate structural and theoretical analysis of Stravinsky’s compositional techniques.
 
 ---
